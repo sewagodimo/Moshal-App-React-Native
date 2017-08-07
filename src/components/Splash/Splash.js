@@ -36,7 +36,7 @@ justifyContent: 'space-between'
       },
   powered: {
 
-    color:'blue',
+    color:'#003366',
     fontSize: 15,
     fontWeight: '200',
     justifyContent: 'center',

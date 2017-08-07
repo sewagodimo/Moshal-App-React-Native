@@ -16,8 +16,8 @@ import Login from './src/components/Login/Login';
 export default class MyApp extends Component {
   render() {
     return (
-      <View style={{flex: 1, justifyContent: 'center',alignItems: 'center', backgroundColor: 'white'}}>
-        <Splash/>
+      <View style={{flex: 1}}>
+        <Login/>
       </View>
     );
   }
