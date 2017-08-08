@@ -13,11 +13,12 @@ import {
 } from 'react-native';
 import Splash from './src/components/Splash/Splash';
 import Login from './src/components/Login/Login';
+import ForgotPassword from './src/components/Login/LostPassword';//for error checking
 export default class MyApp extends Component {
   render() {
     return (
       <View style={{flex: 1}}>
-        <Login/>
+        <ForgotPassword/>
       </View>
     );
   }
